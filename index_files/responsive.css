@@ -1,0 +1,288 @@
+@media screen and (min-width: 800px ) {
+    .contentHeader .leftHeader .navMobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px ) {
+    /* -----Header---- */
+    .contentHeader .leftHeader .naviHeader {
+        display: none;
+    }
+    .contentHeader .centerHeader .logoHeader .logoLevi img {
+        width: 100px;
+    }
+    .contentHeader .rightHeader .darkMode {
+        display: none;
+    }
+    .contentHeader .rightHeader .searcHeader {
+        display: none;
+    }
+    .contentHeader .rightHeader .accountHeader .modCart {
+        font-size: 20px;
+    }
+    .contentHeader .rightHeader .accountDesktop {
+        display: none;
+    }
+
+    /* -----Cover---- */
+    .rowCover {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cardCover {
+        height: 265px;
+    }
+    .cardCover .absCard {
+        padding: 20px;
+    }
+    .cardCover .absCard .botCard .titleCard {
+        font-size: 18px;
+    }
+    .cardCover .absCard .topCard .titleCardMax {
+        font-size: 20px;
+    }
+
+    /* ----RowStack---- */
+    .contentIf .rowStack {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .textStack .titleStack {
+        font-size: 16px;
+    }
+    .textStack .subStack {
+        font-size: 20px;
+    }
+
+    /* -----If---- */
+    .ifNone {
+        display: none;
+    }
+    .if .contentIf {
+        padding: 10px 20px;
+    }
+    .ifMarg {
+        margin-bottom: 30px;
+    }
+
+    /* ------HeadGlobal---- */
+    .headGlobal .titleGlobal {
+        font-size: 18px;
+    }
+
+    /* -----rowProd---- */
+    .contentIf .rowProd {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contentIf .rowFour {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .prod .imgProd {
+        height: 198px;
+    }
+    .prod .imgProdMob {
+        height: 250px;
+    }
+    .prod .botProd {
+        gap: 5px;
+    }
+    .prod .imgProd .absProd .centerProd .titleProd a {
+        margin-bottom: 0px;
+		font-size: 20px;
+    }
+
+    /* ----RowTwo---- */
+    .contentIf .rowTwo {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contentIf .rowTwo .itemRow p {
+        padding-right: 0;
+    }
+
+    /* ----RowLogs----- */
+    .contentIf .rowLogs {
+        gap: 30px;
+    }
+
+    /* -----ModSubscribe */
+    .modSubscribe .titleSubscribe {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .modSubscribe .formSubscribe .itemForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .modSubscribe .formSubscribe .itemForm .btnSubscribe {
+        width: 100%;
+    }
+    
+    /* -----Footer----- */
+    .footer .contentFooter {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .contentFooter .leftFooter {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contentFooter .rightFooter {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+
+    /* ----CollapseSearch--- */
+    .collapLev .contentSearch {
+        border: none;
+        padding: 20px 0px;
+    }
+
+    /* ---BannerSingle----- */
+    .contentIf .bannerSingle {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bannerSingle .textBanner .titleSingle {
+        font-size: 20px;
+    }
+    .bannerSingle .imgBanner {
+        height: auto;
+    }
+    .bannerSingle .imgBanner img {
+        width: 100%;
+		height: 101px;
+        object-fit: cover;
+    }
+    .bannerSingle .imgBanner .absBanner {
+        width: 80%;
+        padding: 0px 20px;
+    }
+    .bannerSingle .imgBanner .absBanner .titleBanner {
+        font-size: 25px;
+    }
+    .bannerSingle .imgBanner .absBanner p {
+        font-size: 13px;
+    }
+    .bannerSingle .textBannerAb {
+        padding: 20px;
+    }
+    .bannerSingle .textBanner .titleSingleAb {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .bannerSingle .textBanner p {
+        /* margin-top: 15px; */
+    }
+    .bannerSingle .textBanner .btnRes {
+        margin-top: 20px;
+    }
+
+    /* ----RowSid----- */
+    .contentIf .rowSid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .rowSid .sidebarCat {
+        border: 0;
+    }
+    .rowSid .contentShop .headShop .resultCount p {
+        display: none;
+    }
+    .rowSid .contentShop {
+        padding: 0;
+    }
+    .rowSid .contentShop .rowProducts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* ----CatNotes----- */
+    .contentIf .catNotes {
+        background-color: #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        border-bottom: 0;
+        border-left: 1px solid #d9d7dd;
+    }
+    .catNotes .itemNotes a {
+        padding: 5px 10px;
+    }
+    .catNotes .itemNotes .linkActive {
+        border-bottom: 0;
+        border-left: 2px solid #181818;
+    }
+
+    /* ----RowNotes----- */
+    .contentIf .rowNotes {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+    .prod .imgProd .absSingle {
+        padding: 20px;
+    }
+
+    /* ----RowCont----- */
+    .contentIf .rowCont {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .rowCont .textCont .itemCont {
+        font-size: 15px;
+    }
+    .rowCont .formCont .titleCont {
+        font-size: 20px;
+    }
+    .prod .imgProd .absProd .topProd .btnCart {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .prod .imgProd .absProd .topProd .btnCart i {
+        display: none;
+    }
+
+    /* ----SingleProd---- */
+    .contentIf .singleProd {
+        display: flex;
+        flex-direction: column;
+    }
+    .singleProd .owl-prod {
+        max-width: 100%;
+        height: 350px;
+    }
+    .singleProd .owl-prod .cardProd {
+        height: 350px;
+    }
+    .singleProd .infoSingle {
+        max-width: 100%;
+        height: auto;
+    }
+    .infoSingle .botProducto {
+        margin-bottom: 20px;
+    }
+    .infoSingle .botProducto .btnShop i {
+        display: none;
+    }
+    .owl-prod .owl-prev span, .owl-prod .owl-next span {
+        width: 30px;
+        height: 30px;
+    }
+    .noteBlog .headText .titleText {
+        font-size: 20px;
+    }
+    .noteBlog .textNote .subTitleText {
+        font-size: 16px;
+    }
+    .noteBlog .textNote p {
+        font-size: 14px;
+    }
+}
